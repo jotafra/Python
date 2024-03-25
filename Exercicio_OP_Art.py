@@ -1,0 +1,20 @@
+import time
+
+n1 = float(input("Digite o primeiro valor: "))
+n2 = float(input("Digite o segundo valor: "))
+
+print("Calculando resultados...")
+time.sleep(1)
+print("Adição:", n1 + n2)
+time.sleep(0.5)
+print("Subtração:", n1 - n2)
+time.sleep(0.5)
+print("Multiplicação:", n1 * n2)
+time.sleep(0.5)
+print("Divisão:", n1 / n2)
+time.sleep(0.5)
+print("Divisão inteira:", n1 // n2)
+time.sleep(0.5)
+print("Resto da divisão:", n1 % n2)
+time.sleep(0.5)
+print("Potencia:", n1 ** n2)
